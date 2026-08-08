@@ -30,6 +30,21 @@ Turn portraits and real screenshots into image-generation prompts for polished e
 4  Pick light or black  →  generate the final prompt + negative constraints
 ```
 
+## Examples
+
+<table>
+	<tr>
+		<td width="50%" align="center">
+			<img src="docs/examples/editorial-cover-01.png" alt="Editorial collage cover for six design inspiration websites" width="100%">
+			<br><strong>Design inspiration websites</strong>
+		</td>
+		<td width="50%" align="center">
+			<img src="docs/examples/editorial-cover-02.png" alt="Editorial collage cover for essential job-search skills" width="100%">
+			<br><strong>Essential job-search skills</strong>
+		</td>
+	</tr>
+</table>
+
 ## What it does
 
 | System | Direction |
@@ -83,6 +98,10 @@ The skill can recommend New Youth-style extra-bold Chinese display lettering, bu
 
 ```text
 modern-editorial-cover/
+├── docs/
+│   └── examples/
+│       ├── editorial-cover-01.png
+│       └── editorial-cover-02.png
 ├── SKILL.md
 ├── README.md
 ├── README.zh.md

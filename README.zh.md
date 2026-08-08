@@ -30,6 +30,21 @@
 4  选择浅色或黑色  →  输出最终提示词与负面约束
 ```
 
+## 案例
+
+<table>
+	<tr>
+		<td width="50%" align="center">
+			<img src="docs/examples/editorial-cover-01.png" alt="六个设计审美网站编辑拼贴封面" width="100%">
+			<br><strong>设计审美网站</strong>
+		</td>
+		<td width="50%" align="center">
+			<img src="docs/examples/editorial-cover-02.png" alt="求职必备 Skill 编辑拼贴封面" width="100%">
+			<br><strong>求职必备 Skill</strong>
+		</td>
+	</tr>
+</table>
+
 ## 能做什么
 
 | 系统 | 视觉方向 |
@@ -83,6 +98,10 @@ Skill 可建议使用新青年体气质的中文超粗黑体，但不会打包�
 
 ```text
 modern-editorial-cover/
+├── docs/
+│   └── examples/
+│       ├── editorial-cover-01.png
+│       └── editorial-cover-02.png
 ├── SKILL.md
 ├── README.md
 ├── README.zh.md
